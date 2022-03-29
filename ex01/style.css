@@ -1,0 +1,16 @@
+body{
+    color: rgb(34, 34, 34);
+}
+
+div.box{
+    display: inline-block;
+}
+img{
+    border-radius: 20px;
+}
+a:link{
+    color: rgb(60, 60, 121);
+}
+a:visited{
+    color: rgb(114, 74, 114);
+}
