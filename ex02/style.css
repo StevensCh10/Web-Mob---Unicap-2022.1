@@ -1,0 +1,40 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    color: #121212;
+}
+input {
+   background-color: transparent;
+   border: none;
+   padding: 5px;
+   border-bottom: 2px solid #121212;
+   outline: 0;
+}
+
+input:focus{
+    border: none;
+    border-bottom: 2px solid rgb(23, 189, 125);
+}
+
+button{
+    border: none;
+    padding: 5px;
+    background-color: rgb(25, 209, 138);
+    border-radius: 5px;
+    color: #121212;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(23, 189, 125);
+}
+button:active{
+    background-color: rgb(23, 156, 105);
+    color: white;
+}
+button:disabled{
+    background-color: rgb(164, 218, 197);
+    color: #616161;
+    cursor: auto;
+}

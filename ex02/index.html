@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="./ex02.js" defer></script>
+    <link rel="stylesheet" href="style.css">
     <title>Conversão</title>
 </head>
 <body>
@@ -12,9 +13,11 @@
         <p>Taxa de conversão:</p><input type="text" name="Taxa" id="Tx"> <button type="reset" id="reset" onclick="limpar()">Limpar Taxa</button><br><br>
         <button id="btTaxa" onclick="verificaTaxa()">Confimar Taxa</button>
 
-        <p>Valor em Dólar:</p><input type="text" name="Dolar" id="Dol" placeholder="converter Dólar em Real"> <br><br> <button type="button" id="dol">Converter</button>
+        <p>Valor em Dólar:</p><input type="text" name="Dolar" id="Dol" placeholder="converter Dólar em Real"> <div id="resultDol"></div>
+        <br><br> <button type="button" id="btDol" onclick="verificaDol()">Converter</button>
 
-        <p>Valor em Real:</p><input type="text" name="Real" id="Real" placeholder="converter Real em Dólar"><br><br><button type="button" id="real">Converter</button>
+        <p>Valor em Real:</p><input type="text" name="Real" id="Real" placeholder="converter Real em Dólar"><div id="resultReal"></div>
+        <br><br><button type="button" id="btReal" onclick="verificaReal()">Converter</button>
     </div>
 </body>
 </html>
