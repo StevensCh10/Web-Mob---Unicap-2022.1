@@ -1,0 +1,26 @@
+@import url("../CSS/StyleNav&Fot.css");
+
+.navbar .Contact{
+    background-color: rgb(165, 103, 220);
+    outline: 5px solid rgb(165, 103, 220);
+    color: white;
+}
+
+body{
+    background-image: url('../Assets/6.jpg');
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+main .contatos div{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 11.5%;
+    padding-left: 34%;
+    padding-right: 34%;
+    justify-content: space-evenly;
+}
+
+main .contatos div a:hover{
+    transform: scale(1.2);
+}

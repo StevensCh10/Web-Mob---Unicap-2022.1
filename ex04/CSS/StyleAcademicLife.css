@@ -1,0 +1,47 @@
+@import url("../CSS/StyleNav&Fot.css");
+
+.navbar .AcademicLife{
+    background-color: rgb(165, 103, 220);
+    outline: 5px solid rgb(165, 103, 220);
+    color: white;
+}
+
+body{
+    background-image: url('../Assets/6.jpg');
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+main .unicap div{
+    padding-left: 44%;
+}
+
+main .unicap p{
+    font-size: 104%;
+    padding-top: 1%;
+    padding-left: 34%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main .lingDeProgram .linguas .java{
+    display: fixed;
+    margin-left: 18%;
+}
+
+main .lingDeProgram .linguas .web{
+    float: right;
+    padding-top: 2.5%;
+    padding-right: 14%;
+}
+
+main .lingDeProgram .textJava{
+    position: fixed;
+    padding-left: 8%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main .lingDeProgram .textWeb{
+    position: fixed;
+    padding-left: 59%;
+    font-family: Arial, Helvetica, sans-serif;
+}
