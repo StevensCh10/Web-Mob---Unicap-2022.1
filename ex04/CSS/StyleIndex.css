@@ -1,13 +1,13 @@
 @import url("../CSS/StyleNav&Fot.css");
 
 .navbar .Home{
-    background-color: rgb(165, 103, 220);
-    outline: 5px solid rgb(165, 103, 220);
+    background-color: #202020;
+    outline: 5px solid #202020;
     color: white;
 }
 
 body{
-    background-image: url('../Assets/6.jpg');
+    background-image: url('../Assets/backgroud.jpg');
     background-size: cover;
     background-repeat: no-repeat
 }
