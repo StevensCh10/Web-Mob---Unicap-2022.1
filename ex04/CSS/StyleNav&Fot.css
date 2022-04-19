@@ -4,6 +4,30 @@
     box-sizing: border-box;
 }
 
+#preload{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../Assets/backgroud.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#loader{
+    margin-top: 44%;
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    border: #686868 solid;
+    border-left-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    animation: loading 1.2s linear infinite;    
+}
+
+@keyframes loading {
+    to {transform: rotate(360deg);}
+}
+
 header{
     display: fixed;
     width: 100%;
